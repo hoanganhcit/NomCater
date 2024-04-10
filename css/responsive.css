@@ -740,3 +740,80 @@
 	.featured-imagebox-services.style1 .featured-box-desc { padding: 40px 25px 50px;}
 	.font-size-70{font-size: 30px;}
 }
+
+
+@media only screen and (min-width: 1164px) {
+    #home-yougurt {
+        width: 292px;
+        height: 306px;
+        top: 14%;
+    }
+    #home-pizza {
+        width: 299px;
+        height: 285px;
+    }
+    #home-tortilla {
+        width: 391px;
+        height: 450px;
+    }
+    #home-salad {
+        width: 333px;
+        height: 318px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home-fruit-bowl, .home-salad-bowl.hide-on-mobile, .home-pizza.hide-on-tablet {
+        object-fit: contain;
+    }
+    .restaurant-floating-badge.restaurant-floating-badge-tablet.restaurant-floating-badge-mobile {
+        width: 376px;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+    .hh-hero-web-section.hh-hero-main.hh-hero-main-mobile {
+        width: auto;
+        height: 652px;
+        overflow: visible;
+    }
+    #home-yougurt {
+        width: 359px;
+        height: 376px;
+    }
+    .home-fruit-bowl {
+        object-fit: contain;
+        left: 0%;
+    }
+    .home-pizza.hide-on-tablet {
+        object-fit: contain;
+        width: 368px;
+        height: 352px;
+    }
+    #home-pizza {
+        width: 387px;
+        height: 370px;
+    }
+    .home-tortila.hide-on-tablet {
+        object-fit: contain;
+        width: 276px;
+        height: 286px;
+        top: -26%;
+    }
+    #home-tortilla {
+        width: 430px;
+        height: 465px;
+        left: 3%;
+        top: -30%;
+    }
+    .home-salad-bowl.hide-on-mobile {
+        width: 373px;
+        height: 343px;
+        top: -26%;
+    }
+    #home-salad {
+        width: 398px;
+        height: 380px;
+    }
+}
