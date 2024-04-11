@@ -817,3 +817,81 @@
         height: 380px;
     }
 }
+
+@media screen and (max-width: 600px) {
+	.home-tortila.hide-on-tablet, .home-salad-bowl {
+		display: none;
+	}
+	
+	.home-fruit-bowl {
+		width: 150px;
+		top: -55px;
+	}
+	
+	.home-pizza.hide-on-tablet {
+		width: 165px;
+		right: -37px;
+		top: -45px;
+	}
+	
+	.home-hading-main.home-heading-main-mobile {
+		font-size: 28px;
+		line-height: 1.4;
+	}
+	
+	.home-sub-text {
+		font-size: 14px;
+		padding: 0 15px;
+	}
+	
+	.cartering-home {
+		padding: 0;
+	}
+	
+	.catering-div-home-content {
+		/* margin-top: 0; */
+	}
+	
+	.catering-tab {
+		flex-direction: column;
+	}
+	
+	.catering-tab .nav-item {
+		width: 100%;
+	}
+	
+	.hiw-content .tab-content {
+		display: none;
+	}
+	
+	h4.title {
+		font-size: 20px;
+	}
+	
+	.section-title h2.title {
+		font-size: 20px;
+	}
+	
+	.deliveries-column {
+		margin-top: 0;
+		border-radius: 0;
+	}
+	
+	.deliveries-div:before {
+		display: none;
+	}
+	
+	.deliveries-div {
+		padding-bottom: 15px;
+		border-bottom: 1px solid #fff;
+		margin-bottom: 15px;
+	}
+	
+	.deliveries-column .col-md-3:last-child .deliveries-div {
+		border-bottom: 0;
+	}
+	.catering-tab .nav-item .nav-link {
+		opacity: 1;
+		margin-bottom: 15px;
+	}
+}
